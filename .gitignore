@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Directories for build and deploy
+dist/
+build/
+
+# Dependency directories
+bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug files
+*.pid
+*.seed
+
+# Coverage directories
+coverage/
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+
+# Sentry sourcemaps
+.sourcemaps/
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+*.lnk
