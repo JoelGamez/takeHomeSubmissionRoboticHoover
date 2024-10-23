@@ -103,9 +103,5 @@ cy.request({
     "patches": [[1, 0], [2, 2], [2, 3]],
     "instructions": "NNESEESWNWW"
   }
-}).then((response) => {
-  expect(response.status).to.eq(200);
-  expect(response.body.coords).to.deep.eq([1, 3]);
-  expect(response.body.patches).to.eq(1);
-});
+})
 ```
