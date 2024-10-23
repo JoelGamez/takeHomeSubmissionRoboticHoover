@@ -1,0 +1,16 @@
+{
+  "reporterEnabled": "spec, multiple-cucumber-html-reporter",
+  "multiple-cucumber-html-reporter": {
+    "jsonDir": "cypress/cucumber-json",
+    "reportPath": "cypress/cucumber-report",
+    "metadata": {
+      "browser": {
+        "name": "chrome"
+      },
+      "device": "Local Test Machine",
+      "platform": {
+        "name": "macOS"
+      }
+    }
+  }
+}
