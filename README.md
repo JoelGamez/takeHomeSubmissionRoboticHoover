@@ -17,14 +17,7 @@ The goal of the tests is to ensure the API service functions correctly under var
 
 - Node.js v.13+
 - Docker v.18+ installed and running (for the hoover service)
-  - Review the README attached with the hoover service repo in order to build and run with docker
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <git@github.com:JoelGamez/takeHomeSubmissionRoboticHoover.git>
-   ```
+  - Review the README attached within the hoover service repo in order to build and run with docker
 
 ## Features
 
