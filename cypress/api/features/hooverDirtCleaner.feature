@@ -118,7 +118,7 @@ Scenario: Hoover cleans a patch on every position in the room
     | 4  | 4  |
   When the movement instructions are "EEEENWWWWNEEEENWWWWNEEEE" 
   Then the final hoover position should be 4, 4
-  And the number of cleaned patches should be 24
+  And the number of cleaned patches should be 25
 
 #failing scenario - returning 24 instead of 1 | The patch counter is the number of navigation movements
 Scenario: Hoover can clean a patch at the end of room
