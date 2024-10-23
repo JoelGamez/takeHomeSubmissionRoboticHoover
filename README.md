@@ -42,7 +42,7 @@ The goal of the tests is to ensure the API service functions correctly under var
 
 1. Create a .env file in the root of your project and add the necessary environment variables.
    - Set the base url to your hoover docker service. Example below:
-     - BASE_URL={http://localhost:8080/v1/cleaning-sessions}
+     - `BASE_URL={http://localhost:8080/v1/cleaning-sessions}`
 
 ## Running Tests
 
