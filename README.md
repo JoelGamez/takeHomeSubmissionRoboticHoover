@@ -40,23 +40,22 @@ The goal of the tests is to ensure the API service functions correctly under var
 
 ## ENV Config
 
-    - Create a .env file in the root of your project and add the necessary environment variables.
-    - Set the base url to your hoover docker service. Example below:
-        - BASE_URL={http://localhost:8080/v1/cleaning-sessions}
+1. Create a .env file in the root of your project and add the necessary environment variables.
+   - Set the base url to your hoover docker service. Example below:
+     - BASE_URL={http://localhost:8080/v1/cleaning-sessions}
 
 ## Running Tests
 
-    - Given this test suite is intended just for APIs, you will most likely want to run the automation headlessly
-        - `npm run cypress:run` to run headless
-        - `npm run cypress:open` to run using Cypress GUI
+1. Given this test suite is intended just for APIs, you will most likely want to run the automation headlessly - `npm run cypress:run` to run headless - `npm run cypress:open` to run using Cypress GUI
 
 ## Cucumber Report Generator
 
-    - Run `node cucumber-html-report.js` to generate a sleek report that you can open in your browser. The logs will output a link such as:
-    ```
-            Multiple Cucumber HTML report generated in:
-        /{yourFilePath}/takeHomeSubmission/reports/cucumber-htmlreport.html/index.html
-    ```
+1. Run `node cucumber-html-report.js` to generate a sleek report that you can open in your browser. The logs will output a link such as:
+
+   ```
+           Multiple Cucumber HTML report generated in:
+       /{yourFilePath}/takeHomeSubmission/reports/cucumber-htmlreport.html/index.html
+   ```
 
 ## Project Structure Overview
 
