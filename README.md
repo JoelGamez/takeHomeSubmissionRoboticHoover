@@ -69,5 +69,5 @@ The goal of the tests is to ensure the API service functions correctly under var
 
 ## Test Scenario Overview
 
-    - A README file with detailed overview and a review of the current findings can be found within the Cypress directory
-        - takeHomeSubmissionRoboticHoover/cypress/README.md
+    - A PDF file with detailed overview and a review of the current findings can be found within the root directory
+        - takeHomeSubmissionRoboticHoover/TestCoverageOverviewAndAnalysis

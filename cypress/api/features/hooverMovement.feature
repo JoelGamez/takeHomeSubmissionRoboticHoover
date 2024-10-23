@@ -25,6 +25,12 @@ Scenario: Hoover can move east
   When the movement instructions are "E"
   Then the final hoover position should be 3, 2
 
+Scenario: Hoover can navigate through every coordinate
+  Given the room has dimensions 5 by 5
+  And the hoover starts at position 0, 0
+  When the movement instructions are "EEEENWWWWNEEEENWWWWNEEEE" 
+  Then the final hoover position should be 4, 4
+
 #Edge Cases --------------------------------------------------
 Scenario: Hoover moves in valid direction after hitting the wall
   Given the room has dimensions 5 by 5
