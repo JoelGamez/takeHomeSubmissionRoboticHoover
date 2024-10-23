@@ -34,7 +34,7 @@ The goal of the tests is to ensure the API service functions correctly under var
    git clone <git@github.com:JoelGamez/takeHomeSubmissionRoboticHoover.git>
    ```
 
-2. Navigate into the root projecy
+2. Navigate into the root project
    - cd takeHomeSubmissionRoboticHoover
    - npm install
 
