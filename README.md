@@ -71,3 +71,41 @@ The goal of the tests is to ensure the API service functions correctly under var
 
     - A PDF file with detailed overview and a review of the current findings can be found within the root directory
         - takeHomeSubmissionRoboticHoover/TestCoverageOverviewAndAnalysis
+
+## API Input
+
+The service input will be received in a json payload with the format described here.
+
+Example:
+
+```javascript
+{
+  "roomSize" : [5, 5],
+  "coords" : [1, 2],
+  "patches" : [
+    [1, 0],
+    [2, 2],
+    [2, 3]
+  ],
+  "instructions" : "NNESEESWNWW"
+}
+```
+
+- Cypress uses its native .request() command to make API calls. This allows you to easily test API endpoints by sending HTTP requests and validating the response. For example, to test this service, you can use:
+
+```
+cy.request({
+  method: 'POST',
+  url: '{base_url}/v1/cleaning-sessions',
+  body: {
+    "roomSize": [5, 5],
+    "coords": [1, 2],
+    "patches": [[1, 0], [2, 2], [2, 3]],
+    "instructions": "NNESEESWNWW"
+  }
+}).then((response) => {
+  expect(response.status).to.eq(200);
+  expect(response.body.coords).to.deep.eq([1, 3]);
+  expect(response.body.patches).to.eq(1);
+});
+```
