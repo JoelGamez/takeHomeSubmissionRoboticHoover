@@ -46,7 +46,9 @@ The goal of the tests is to ensure the API service functions correctly under var
 
 ## Running Tests
 
-1. Given this test suite is intended just for APIs, you will most likely want to run the automation headlessly - `npm run cypress:run` to run headless - `npm run cypress:open` to run using Cypress GUI
+1. Given this test suite is intended just for APIs, you will most likely want to run the automation headlessly
+   - `npm run cypress:run` to run headless
+   - `npm run cypress:open` to run utilizing the Cypress GUI
 
 ## Cucumber Report Generator
 
