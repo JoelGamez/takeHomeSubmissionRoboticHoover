@@ -11,6 +11,9 @@ yarn-error.log*
 # Environment variables
 .env
 
+# Ignore Cypress screenshots
+cypress/screenshots/
+
 # Directories for build and deploy
 dist/
 build/
