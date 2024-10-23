@@ -69,7 +69,7 @@ The goal of the tests is to ensure the API service functions correctly under var
     •	.env - Contains environment variables for the project
     •	cypress.config.js - Configuration for the Cypress framework
 
-## Test Scenario Overview
+## Test Coverage Overview and Analysis
 
     - A PDF file with detailed overview and a review of the current findings can be found within the root directory
         - takeHomeSubmissionRoboticHoover/TestCoverageOverviewAndAnalysis
